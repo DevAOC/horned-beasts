@@ -8,7 +8,7 @@ I build an app with a direct and powerful purpose. It does all of the things tha
 
 ### Links and Resources
 
-- [submission PR](http://xyz.com)
+- [Grid Card React](https://react-bootstrap.netlify.app/components/cards/#grid-cards)
 - Any Links you used as reference
 
 ### Reflections and Comments
@@ -20,12 +20,30 @@ I build an app with a direct and powerful purpose. It does all of the things tha
 
 #### Feature 1
 
-Number and name of feature: **\*\***\*\***\*\***\_\_\_\_**\*\***\*\***\*\***
+Estimate of time needed to complete: 30 min
 
-Estimate of time needed to complete: **\_**
+Start time: 7pm Eastern
 
-Start time: **\_**
+Finish time: 7:30pm Eastern
 
-Finish time: **\_**
+Actual time needed to complete: 30 min
 
-Actual time needed to complete: **\_**
+#### Feature 2
+
+Estimate of time needed to complete: 15 min
+
+Start time: 7:45pm Eastern
+
+Finish time: 8pm Eastern
+
+Actual time needed to complete: 15 min
+
+#### Feature 3
+
+Estimate of time needed to complete: 1 hour
+
+Start time: 8:30pm Eastern
+
+Finish time: Eastern
+
+Actual time needed to complete: 1 hour

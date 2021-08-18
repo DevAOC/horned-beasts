@@ -1,5 +1,4 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./data.json";
 import Header from "./header";
 import Main from "./main";
 import Footer from "./footer";
