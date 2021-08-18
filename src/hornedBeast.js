@@ -19,7 +19,7 @@ export default class HornedBeast extends Component {
   render() {
     return (
       <>
-        <Col>
+        <Col style={{ marginTop: '15px', marginBottom: '15px' }}>
           <Card style={{ width: '18rem' }}>
             <Card.Img
               variant="top"
