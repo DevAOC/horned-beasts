@@ -1,8 +1,8 @@
-import { Component } from "react";
+import { Component } from 'react';
 
 class Header extends Component {
   render() {
-    return <h1>{this.props.title}</h1>;
+    return <h1 style={{ textAlign: 'center' }}>{this.props.title}</h1>;
   }
 }
 
