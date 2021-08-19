@@ -1,5 +1,8 @@
 import { Component } from 'react';
-import { Card, Button, Col } from 'react-bootstrap';
+import Card from 'react-bootstrap/Card';
+import Button from 'react-bootstrap/Button';
+import Col from 'react-bootstrap/Col';
+import SelectedBeast from './selectedBeast';
 import heart from './img/white-heart.png';
 
 export default class HornedBeast extends Component {
@@ -7,12 +10,19 @@ export default class HornedBeast extends Component {
     super(props);
     this.state = {
       clicks: 0,
+      modal: false,
     };
   }
 
   handleClick = () => {
     this.setState({
       clicks: this.state.clicks + 1,
+    });
+  };
+
+  handleModal = () => {
+    this.setState({
+      modal: !this.state.modal,
     });
   };
 
@@ -26,7 +36,7 @@ export default class HornedBeast extends Component {
               src={this.props.src}
               alt={this.props.keyword}
               title={this.props.keyword}
-              // style={{ height: '25rem' }}
+              onClick={this.handleModal}
             />
             <Card.Body>
               <Card.Title>{this.props.title}</Card.Title>
@@ -38,6 +48,14 @@ export default class HornedBeast extends Component {
               </Button>
             </Card.Body>
           </Card>
+          <SelectedBeast
+            title={this.props.title}
+            src={this.props.src}
+            alt={this.props.keyword}
+            description={this.props.description}
+            show={this.state.modal}
+            onClose={this.handleModal}
+          />
         </Col>
       </>
     );

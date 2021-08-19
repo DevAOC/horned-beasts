@@ -47,3 +47,15 @@ Start time: 8:30pm Eastern
 Finish time: Eastern
 
 Actual time needed to complete: 1 hour
+
+### Lab 3 Reflections
+
+#### Feature 1
+
+Estimate of time needed to complete: 45 min
+
+Start time: 11pm Eastern
+
+Finish time: 12pm Eastern
+
+Actual time needed to complete: 1 hour
