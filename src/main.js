@@ -1,13 +1,13 @@
 import { Component } from 'react';
-import { Row } from 'react-bootstrap';
-import data from './data.json';
+import Row from 'react-bootstrap/Row';
+import beasts from './data.json';
 import HornedBeast from './hornedBeast';
 
-class Main extends Component {
+export default class Main extends Component {
   render() {
     return (
       <Row>
-        {data.map((item) => {
+        {beasts.map((item) => {
           return (
             <HornedBeast
               title={item.title}
@@ -21,5 +21,3 @@ class Main extends Component {
     );
   }
 }
-
-export default Main;
