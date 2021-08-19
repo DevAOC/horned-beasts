@@ -9,7 +9,6 @@ I build an app with a direct and powerful purpose. It does all of the things tha
 ### Links and Resources
 
 - [Grid Card React](https://react-bootstrap.netlify.app/components/cards/#grid-cards)
-- Any Links you used as reference
 
 ### Reflections and Comments
 
@@ -59,3 +58,15 @@ Start time: 11pm Eastern
 Finish time: 12pm Eastern
 
 Actual time needed to complete: 1 hour
+
+### Lab 4 Reflections
+
+#### Feature 1
+
+Estimate of time needed to complete: 2 hours
+
+Start time: 5:30pm Eastern
+
+Finish time: 6pm Eastern
+
+Actual time needed to complete: 30 mins
